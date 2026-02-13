@@ -18,3 +18,12 @@ params:
     - name: "Github"
       url: "https://github.com/obiwabrakenobi"
 
+caches:
+  images:
+    dir: :cacheDir/images
+
+imaging:
+  compression: lossless
+  quality: 100
+  resampleFilter: lanczos
+
